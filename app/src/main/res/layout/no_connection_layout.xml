@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_no_connection_logo"
+        android:layout_margin="20dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/tv_no_connection_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/no_connection_prompt"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_no_connection_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/no_connection_message"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
